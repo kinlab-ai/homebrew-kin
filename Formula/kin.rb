@@ -8,28 +8,28 @@
 class Kin < Formula
   desc "Graph-native code repository for AI agents and the people who build with them"
   homepage "https://github.com/kinlab-ai/kin"
-  version "0.8.1"
+  version "0.8.6"
   license "Apache-2.0"
 
   on_macos do
     on_arm do
       url "https://github.com/kinlab-ai/kin/releases/download/v#{version}/kin-macos-aarch64.tar.gz"
-      sha256 "d9fda840ef9590a6ebd7dc0a8f8ab8d6684a536374fb77a7dd037469022a64a5"
+      sha256 "f960f6218992ba28e10b099102edf5b156f0f2a0f30f6bd351cc00c07aa9ce62"
     end
     on_intel do
       url "https://github.com/kinlab-ai/kin/releases/download/v#{version}/kin-macos-x86_64.tar.gz"
-      sha256 "0edc56cdb6f58e4fb6c41553c537c971b81566bade9e8eae89ff1464857307ce"
+      sha256 "962766a894611140eea78726af2680cc146506af38aa7b6a28cddcffb724d122"
     end
   end
 
   on_linux do
     on_intel do
       url "https://github.com/kinlab-ai/kin/releases/download/v#{version}/kin-linux-x86_64.tar.gz"
-      sha256 "347d27c4f6ba983a0a85bcd31656fbe42d422a78176c63c58b6f9582f50070a8"
+      sha256 "1103393fba976f2649f2f519c638865fc9ad83cd90eae768b1625689cb0ba9b5"
     end
     on_arm do
       url "https://github.com/kinlab-ai/kin/releases/download/v#{version}/kin-linux-aarch64.tar.gz"
-      sha256 "7996f62be9c1d10340c36824a501b0ccd71d7be994c82a7b28d8df7e6f84a81d"
+      sha256 "40964050ae4e6edd46e741ec4dc0065bfe4859eca81b207b3faddf667a4769de"
     end
   end
 
